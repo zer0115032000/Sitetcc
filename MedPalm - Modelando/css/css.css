@@ -104,14 +104,14 @@ div#interface{
 	
 }
 div#fundo{
-	background: url(../Imagens/fundo.jpg) no-repeat 100% 100%;
+	background: url(../Imagens/fundo3.jpg) no-repeat 100% 100%;
 }
 /* Rodape */
 footer#rodape{
 	border-top: 1px groove;
 	margin: auto;
 	margin-bottom: 0px;
-	margin-top: 3%;
+	margin-top: 0%;
 	padding: 20px;
 	clear: both;
 	background-color: rgba(10.6, 26.7, 37.6, .9);
