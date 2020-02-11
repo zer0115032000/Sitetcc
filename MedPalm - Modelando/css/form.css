@@ -1,0 +1,31 @@
+form fieldset#form {
+	width: 100%;
+	max-width: 1000px;
+	padding: 10px;
+	margin: auto;
+	margin-top: 20px;
+	display: block;
+	border-style: 1px solid black;
+}
+form fieldset#form button#cBotao{
+	border-radius: 12px;
+	background-color: #1f76bd;
+	width: 80px;
+	height: 30px;
+	transition: 1s;
+}
+form fieldset#form button#cBotao:hover{
+	background-color: rgba(12.2, 46.3, 74.1);
+	box-shadow: black;
+}
+form fieldset#form textarea{
+	width: 100%;
+	height: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+fieldset p{
+	text-align: left;
+	margin-left: -100px;
+}

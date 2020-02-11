@@ -1,0 +1,96 @@
+/*Diagrama de caso de uso*/
+div#interface figure#diagrama{
+	margin: auto;
+	margin-bottom: 4%;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+	position: relative;
+	max-width: 500px;
+	min-width: 100px;
+	max-height: 210px;
+}
+div#interface figure#diagrama img{
+	width: 100%;
+	height: 100%;
+}
+div#interface figure#diagrama p{
+	text-align: center;
+	font-size: 10pt;
+	text-align: justify-all;
+}
+/*-----------------------------------------------*/
+/*Telas*/
+div#interface figure#telas{
+	margin: 4% auto 5% auto;
+	width: 600px;
+	height: 320px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+	position: relative;
+}
+div#interface figure#telas img{
+	width: 100%;
+	height: 100%;
+}
+div#interface figure#telas p{
+	text-align: center;
+	font-size: 10pt;
+}
+/*---------------------------------------------*/
+/*Modelo de dominio UML*/
+div#interface figure#dominio{
+	margin: auto;
+	margin-bottom: 4%;
+	max-width: auto;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+	position: relative;
+	max-width: 500px;
+	min-width: 310px;
+	max-height: 220px;
+}
+div#interface figure#dominio img{
+	width: 100%;
+	height: 100%;
+}
+div#interface figure#dominio p{
+	text-align: center;
+	font-size: 10pt;
+}
+div#interface h1#hzao{
+	margin-bottom: 50px;
+}
+div#interface img#acessibilidade{
+	float: left;
+	width: 500px;
+	height: 400px;
+	margin-left: -10%;
+}div#interface iframe#frame-spec{
+	width: 550px;
+	height: 300px;
+	float: right;
+	margin-right: -10%;
+	margin-top: 7%;
+	border: none;
+	overflow: hidden;
+}
+div#interface iframe#frame-spec::-webkit-scrollbar{
+	display: none;
+}
+
+/*--------------------------------------------------*/
+/* Figura do Logo */
+/*figure.imgLogo{
+	position: relative;
+	width: 100px;
+	height: 180px;
+	margin: auto;
+	margin-left: 5%;
+	margin-right: 80%;
+	box-sizing: 250px;
+}
+figure.imgLogo img{
+	width: 100%;
+	height: 100%;
+}
+figure.imgLogo figcaption{
+	color: white;
+}*/
+/*--------------------------------------------------*/

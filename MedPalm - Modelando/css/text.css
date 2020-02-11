@@ -1,0 +1,26 @@
+@utf-8;
+body{
+	font-family: Arial;
+	font-size: 10pt;
+}
+p{
+	text-align: justify;
+	text-indent: 20px;
+	}
+article h1{
+	background-color: #1f76bd;
+	opacity: 1;
+	color: white;
+	font-size: 15pt;
+	padding: 10px;
+	margin: 0px;
+} 
+article h2{
+	color: #888888;
+	margin: 0px;
+	text-indent: 10px;
+}
+img{
+	width: 520px; 
+	height:180px;
+}

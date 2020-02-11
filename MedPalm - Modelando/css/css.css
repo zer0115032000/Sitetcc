@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter&display=swap);
+/*font-family:'Bitter', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Martel+Sans&display=swap');
+/*font-family: 'Martel Sans', sans-serif;*/
+p{
+	text-align: justify; 
+	text-indent: 50px;
+}
+div #div2{
+	background-image: url(../Imagens/Fundo-top2.jpg);
+	width: 100%;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: auto;
+	padding-top: 6%;
+	padding-left: 7%;
+}
+div#MedPalm{
+	background-color: white;
+	width: 100%;
+	padding: auto;
+}
+div#MedPalm h2{
+	margin-left: 10%;
+	margin-top: 5%;
+	font-family: 'Martel Sans', sans-serif;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+;
+
+}
+div#MedPalm hr{
+	width: 80%; height: 0%; margin-top: -1%;
+	border: 1;
+	background-color: black;
+}
+/*--------------------------------------------------*/
+/*Figura icone botão*/
+figure#icone{
+	width: 100px;
+	height: 160px;
+	position: relative;
+	float: right;
+	margin-top: -10%;
+	margin-right: 30px;
+}
+figure#icone img{
+	width: 100%;
+	height: 100%;
+}
+/*--------------------------------------------------*/
+/*Formatação teste do menu*/
+/*div.x{
+	max-width: 800px;
+	visibility: visible;
+}
+div.x nav{
+	width: 500px;
+	max-height: 500px;
+	min-width: 
+}*/
+/*--------------------------------------------------*/
+/* Formatação do menu */
+nav#menu{
+	display: block;
+}
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: relative;
+	max-width: 800px;
+	min-width: 200px;
+	margin: auto;
+	margin-bottom: 0px;
+}
+nav#menu li{
+	display: inline-block;
+	background-color: #1f76bd;
+	padding: 5px;
+	margin: auto;
+	transition: background-color 1s;
+	color: white;
+	border-radius: 12px;
+}
+nav#menu li:hover{
+	background-color: rgba(12.2, 46.3, 74.1);
+	box-shadow: black;
+}
+nav#menu h1{
+	display: none;
+}
+nav#menu a{
+	color: white;
+	text-decoration: none;
+}
+/*--------------------------------------------------*/
+/* Interface de texto */
+div#interface{
+	max-width: 900px;
+	padding: 10px;
+	margin: auto;
+	margin-top: 10px;
+	
+}
+div#fundo{
+	background: url(../Imagens/fundo.jpg) no-repeat 100% 100%;
+}
+/* Rodape */
+footer#rodape{
+	border-top: 1px groove;
+	margin: auto;
+	margin-bottom: 0px;
+	margin-top: 3%;
+	padding: 20px;
+	clear: both;
+	background-color: rgba(10.6, 26.7, 37.6, .9);
+	color: white;
+}
+footer#rodape p{
+	text-align: center;
+}
+footer#rodape a{
+	color: white;
+	text-decoration: none;
+}
+footer#rodape a:hover{
+	text-decoration: underline;
+}
+footer#rodape ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: relative;
+	text-align: center; 
+}
+footer#rodape li{
+	display: inline-block;
+	text-align: center;
+	border-radius: 5px;
+}
+footer#rodape li#facebook img{
+	margin-top: -4px;
+	width: 20px;
+	right: 20px;
+}
+footer#rodape li#instagram img{
+	margin-top: -2px;
+	width: 20px;
+	right: 20px;
+}
+/*--------------------------------------------------*/
